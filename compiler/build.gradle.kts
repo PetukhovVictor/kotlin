@@ -100,7 +100,7 @@ sourceSets {
     "main" {}
     "test" {
         projectDefault()
-        // not yet ready
+        // not yet ready 1
 //        java.srcDir("tests-ir-jvm/tests")
     }
 }
