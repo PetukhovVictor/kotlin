@@ -2,7 +2,7 @@
 import java.io.File //2
 import org.gradle.api.tasks.bundling.Jar
 import org.jetbrains.kotlin.gradle.dsl.KotlinCompile
-
+//5
 plugins {
     kotlin("jvm")
     id("jps-compatible")
