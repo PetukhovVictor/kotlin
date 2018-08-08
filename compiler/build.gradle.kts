@@ -1,7 +1,7 @@
 //1
 import java.io.File //2
 import org.gradle.api.tasks.bundling.Jar //3
-import org.jetbrains.kotlin.gradle.dsl.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.KotlinCompile//4
 
 plugins {
     kotlin("jvm")
