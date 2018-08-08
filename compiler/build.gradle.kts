@@ -119,7 +119,7 @@ projectTest {
         systemProperty("kotlin.ant.launcher.class", "org.apache.tools.ant.Main")
     }
 }
-
+// 3
 fun Project.codegenTest(target: Int, jvm: Int,
                         jdk: String = "JDK_${if (jvm <= 8) "1" else ""}$jvm",
                         body: Test.() -> Unit): Test = projectTest("codegenTarget${target}Jvm${jvm}Test") {
@@ -142,7 +142,7 @@ fun Project.codegenTest(target: Int, jvm: Int,
         println("Running test with $executable")
     }
     group = "verification"
-}
+}//4
 
 codegenTest(target = 6, jvm = 6, jdk = "JDK_18") {
     dependsOn(testJvm6ServerRuntime)
