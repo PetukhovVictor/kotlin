@@ -101,7 +101,7 @@ sourceSets {
     "test" {
         projectDefault()
         // not yet ready 1
-//        java.srcDir("tests-ir-jvm/tests")
+//        java.srcDir("tests-ir-jvm/tests") 2
     }
 }
 
