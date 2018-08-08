@@ -2,10 +2,10 @@
 import java.io.File
 import org.gradle.api.tasks.bundling.Jar//2
 import org.jetbrains.kotlin.gradle.dsl.KotlinCompile
-
+//3
 plugins {
     kotlin("jvm")
-    id("jps-compatible")
+    id("jps-compatible")//4
 }//5
 
 jvmTarget = "1.6"//6
